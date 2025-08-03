@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my first code</title>
+<head>
+<body>
+  <h1>my first code</h1>
+  <p id="goaltext>no tv</p>
+  <button onclick="markdone(1)">yes done</button>
+  <button onclick="marknotdone(0)">no notdone</button>
+  <p id="status"></p>
+  <script> 
+    function markdone(0) marknotdone(1) {
+      document.getElementById("status").innerText = "Goal completed!"; "Goal incomplete
+    }
+  </script>
+</body>
+</html>
